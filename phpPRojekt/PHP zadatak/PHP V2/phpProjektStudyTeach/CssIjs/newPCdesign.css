@@ -1,0 +1,391 @@
+/*-------------------------------------FRONT PAGES ON COURSES-----------*/
+.course-front-page {
+    width: auto;
+    min-width: 400px;
+
+    background-color: rgb(145, 145, 145);
+    color: white;
+    padding: 15px;
+}
+
+.course-front-page h1 {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.course-img {
+    width: 100%;
+    height: 200px;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.course-desc {
+    text-wrap: auto;
+    text-align: left;
+
+}
+
+.course-front-page-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.course-front-page-form button {
+    height: 50px;
+    flex: 1;
+    background-color: rgb(121, 121, 121);
+    border: none;
+    color: white;
+    font-size: xx-large;
+}
+
+.course-front-page-form button:hover {
+    cursor: pointer;
+    background-color: rgb(177, 177, 177);
+}
+
+.course-front-page-form button:active {
+    cursor: default;
+}
+
+/*-----ADDITIONAL ZA MY COURSEPAGE------*-------------------------------------------------*-*/
+
+.course-front-page-form-div {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.course-front-page-form-ctrl {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.course-front-page-form-ctrl button {
+    width: 90%;
+    height: 100%;
+    border: none;
+    color: white;
+    font-size: x-large;
+    background-color: rgb(99, 99, 99);
+    border-radius: 15px;
+}
+
+.course-front-page-form-ctrl button:hover {
+    cursor: pointer;
+    background-color: rgb(182, 182, 182);
+}
+
+/* MAKE MY NEW COURSE -----------------------------------*/
+
+.new-course-div {
+    background-color: gray;
+    border: none;
+    height: 400px;
+    color: white;
+    border: 2px rgb(255, 255, 255) solid;
+    outline: none;
+}
+
+.button-new-course-button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: gray;
+    color: white;
+    border: 2px rgb(255, 255, 255) solid;
+    cursor: pointer;
+
+}
+
+.new-course-form-add-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+.button-new-course i {
+    color: #ffffff;
+    border: none;
+}
+
+.button-new-course-button:hover {
+    background-color: rgb(173, 173, 173);
+}
+
+.button-new-course-button:active {
+    cursor: default;
+    background-color: gray;
+}
+
+/*-----------FRONT PAGE DISPLAY BEFORE ENROL------------------------------------------------------------------------------------------------------------*/
+
+.course-front-page-enrol-group-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.courseDisplayFrontPage {
+    flex: 1;
+    margin: 50px;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgb(99, 99, 99);
+
+}
+
+.courseDisplayFrontPage img {
+    width: auto;
+    max-height: 300px;
+}
+
+.courseDisplayFrontPage h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.course-front-page-enrol-desc-div {
+    flex: 1;
+    width: 100%;
+}
+
+.course-front-page-enrol-desc-div p {
+
+    text-align: left;
+    font-size: larger;
+    text-wrap: auto;
+}
+
+.fpdisplay-enrol-form-div {
+    width: 20%;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.fpdisplay-enrol-form-div button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: gray;
+    color: white;
+    border: 3px rgb(59, 59, 59) solid;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+.fpdisplay-enrol-form-div button:hover {
+    background-color: rgb(173, 173, 173);
+    cursor: pointer;
+}
+
+.fpdisplay-enrol-form-div button:active {
+    cursor: grab;
+    background-color: gray;
+}
+
+/*------COURSE FORM KORISTI OD ACCOUNT FORME OSTATAK------------------------------------------------------------------------------------------------------------------------------------------------*/
+.course-form-old-image {
+    max-width: 20%;
+    max-height: 200px;
+}
+
+/*-----DISPLAY stranici -----------*/
+.content-column-display-course{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+
+}
+
+.courseDisplayPage {
+   width: 60%;
+    background-color: rgb(122, 122, 122);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+.courseDisplayPage img,
+.courseDisplayPage iframe,
+.courseDisplayPage video,
+.courseDisplayPage div,
+.courseDisplayPage h1 {
+    text-align: center;
+    color: white;
+    width: 100%;
+
+}
+
+.courseDisplayPage img,
+.courseDisplayPage video,
+.courseDisplayPage iframe
+ {
+   
+    max-width: 60%;
+    height: auto;
+  
+}
+.courseDisplayPage iframe{
+    width: 70%;
+    height: 500px;
+}
+
+
+.courseDisplayPage h1 {
+    font-size: 50px;
+}
+
+.courseDisplayPage-text-div {
+    width: 50%;
+
+}
+
+.courseDisplayPage-text-div p {
+    text-align: left;
+    text-wrap: auto;
+}
+
+/*  COURSE EDITOR - stranice - tablica stranici  i ostalo*/
+.pages-list-table-div {
+    width: 70%;
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+
+.pages-list-table {
+    width: 100%;
+text-align: center;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9cm;
+    min-width: 400px;
+    cursor: default;
+}
+
+.pages-list-table thead tr {
+    background-color: rgb(109, 109, 109);
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    text-align: center;
+
+}
+
+.pages-list-table th,
+.pages-list-table td {
+   
+    color: white;
+    height: 50px;
+    border-bottom: 2px rgb(44, 44, 44) solid;
+    font-size: xx-large;
+
+}
+
+.pages-list-table tbody tr {
+    border-bottom: 1px solid gray;
+}
+
+.page-list-ctrl-btn-form{
+    width: auto;
+    height: 100%;
+}
+
+.page-list-ctrl-btn-form button{
+    width: 100%;
+    height: 100%;
+   border: none;
+   background-color: gray;
+   color: white;
+   font-size: x-large;
+   cursor: pointer;
+}
+.page-list-ctrl-btn-form button:hover{
+    background-color: rgb(189, 189, 189);
+}.page-list-ctrl-btn-form button:active{
+    cursor: default;
+    background-color:gray ;
+}
+
+/**--------NEW PAGE FORM----------------------------------------*/
+.new-page-form-div{
+    margin-top: 20px;
+    width:67%;
+    background-color: rgb(117, 117, 117);
+    padding: 20px;
+}
+
+.new-page-form-form{
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+text-align: center;
+
+}
+.new-page-form-form button{
+    height: 50px;
+    border: none;
+    background-color: rgb(167, 167, 167);
+    margin-left: 10px;
+    color: white;
+font-size: 0.9cm;
+
+}
+.new-page-form-form button:hover{
+    background-color: rgb(192, 192, 192);
+    cursor: pointer;
+}
+
+.new-page-form-form select{
+    text-align: center;
+    width: 400px;
+    background-color: rgb(182, 181, 181);
+    border: none;
+    cursor: pointer;
+    color: white;
+font-size: 0.9cm;
+
+}
+.new-page-form-lbl-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+}
+.new-page-form-lbl-div label{
+    margin-right:20px;
+}

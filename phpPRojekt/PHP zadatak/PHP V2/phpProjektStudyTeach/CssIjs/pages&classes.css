@@ -1,0 +1,87 @@
+
+
+/*-------------PAGES---------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*-PAGE EDITOR -----------------------------------*/
+
+.page-editor-form-div{
+    flex: 1;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.page-editor-form{
+   width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:20px;
+}
+.page-editor-form textarea,
+.page-editor-form input{
+ width: 40%;
+ font-size: x-large;
+}
+
+.page-editor-form input{
+    height: 50px;
+   
+}
+.page-editor-form textarea{
+    height: 500px;
+}
+
+.page-editor-form button{
+    height: 50px;
+    width: 40%;
+   border: none;
+    cursor: pointer;
+}
+
+.page-editor-form button:active{
+   
+    cursor: default;
+}
+
+/*-----------COURSE--------------------------------------*/
+.course-form-div{
+    width: 100%;
+    flex:1;
+
+    align-items: center;
+}
+.course-form-div-form{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.course-form-div-form input
+,.course-form-div-form select,
+.course-form-div-form input,
+.course-form-div-form button,
+.course-form-div-form textarea{
+    margin-top: 10px;
+    width: 700px;;
+    height: 50px;
+    font-size: large;
+}
+.course-form-div img{
+    width: 20%;
+
+}
+
+.course-form-div-form textarea{
+height: 400px;
+}
+
+.course-form-div-form button{
+border: none;
+
+
+}
+

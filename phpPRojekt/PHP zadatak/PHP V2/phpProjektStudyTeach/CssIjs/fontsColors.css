@@ -1,0 +1,55 @@
+.spg-content{
+    background-color: rgb(143, 143, 143);
+}
+
+.spg-hidden{
+    display: none;
+}
+
+.spg-active{
+    background-color: rgb(175, 175, 175) !important;
+
+}
+.spg-wider-sidebar{
+    width: 30% !important;
+}
+
+.spg-input-error{
+    border:2px red solid !important;
+}
+.spg-txt-error{
+    color: red !important;
+}
+
+.text-delete-warning{
+    font-size: 40px;
+    color: red;
+    background-color: white;
+    font-weight: bold !important;
+    padding: 20px;
+}
+.spg-warning{
+    color: red !important;
+   
+    
+}
+
+.spg-active-nav{
+    background-color: rgb(102, 102, 102) !important;
+
+}
+
+
+.spg-warning-window-err{
+    background-color: rgb(226, 142, 142) !important;
+}
+.spg-warning-window-err p{
+    color: rgb(163, 0, 0) !important;
+}
+.spg-warning-window-ok{
+    background-color: rgb(132, 247, 199) !important;
+}
+.spg-warning-window-ok p{
+    color: rgb(5, 82, 24) !important;
+}
+

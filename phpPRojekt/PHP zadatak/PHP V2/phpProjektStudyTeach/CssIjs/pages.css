@@ -1,0 +1,126 @@
+/*--------PAGE EDITOR CTRL BTNS---------------------*/
+.page-editor-controls-panel {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7a7a7a;
+
+    border-top: 3px rgb(211, 211, 211) solid;
+}
+
+.page-editor-control-buttons {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.page-editor-ctrl-form {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.page-editor-ctrl-form button {
+    width: 100px;
+    height: 50%;
+    font-size: x-large;
+}
+
+.page-editor-ctrl-form select {
+
+    height: 50%;
+    font-size: x-large;
+
+}
+
+.page-editor-control-buttons button {
+    width: 100px;
+    height: 50%;
+    font-size: x-large;
+}
+
+.pecf-create {
+
+    margin-left: 20px;
+}
+
+/*****PAGE INPUT FORM*/
+.page-input-form {
+
+    background-color: #5a5a5a;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    right: 100PX;
+}
+
+/**CREATING PAGES -----------------------------*/
+.create-page-form-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+width: 100%;
+height: auto;
+
+}
+.create-new-page-form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+.create-new-page-form input,
+.create-new-page-form button,
+.create-new-page-form textarea
+{
+   height: 100px;
+   font-size: xx-large;
+   margin: 10px;
+   border: none;
+   outline: none;
+   background-color: rgb(85, 85, 85);
+   color: white;
+   cursor:default;
+
+}
+.create-new-page-form input:hover,
+.create-new-page-form button:hover,
+.create-new-page-form textarea:hover
+.create-new-page-form textarea:hover
+{
+   
+   background-color: rgb(112, 112, 112);
+
+   cursor: text;
+
+}
+
+.create-new-page-form button:hover{
+
+    cursor: pointer;
+
+}
+
+
+.create-new-page-form textarea:focus
+{
+   
+   background-color: rgb(68, 68, 68);
+   cursor: text;
+
+}
+
+
+
+.create-new-page-form textarea{
+    height: 300px;
+    font-size: large;
+}
