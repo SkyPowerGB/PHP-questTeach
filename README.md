@@ -26,11 +26,10 @@ A basic e-learning platform built with PHP, designed to allow users to enroll in
 
 - No privacy settings for courses or individual content  
 - Basic and inflexible course layout/design  
-- No moderation or validation of submitted content  
+- Input validation and sanitization are implemented, but the app does **not filter for inappropriate or unsafe content**  
 - No ownership verification on edit/delete operations  
-- Likely missing security features such as CSRF protection  
+- Likely missing advanced security features (e.g., CSRF protection)  
 - Not intended for public or production deployment  
-
 ---
 
 ## 📝 Notes
